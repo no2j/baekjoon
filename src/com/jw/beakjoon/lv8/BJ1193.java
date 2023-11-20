@@ -38,11 +38,14 @@ public class BJ1193 {
 			t++;
 		}
 		
+		
 		if(t%2 == 0) { 
 			System.out.println(t-(count-num) + "/" + (t+(((count-t)-num)+1)));
 		}else {
 			System.out.println((t+(((count-t)-num)+1)) + "/" + (t-(count-num)));
 		}
+		
+		br.close();
 		
 		/*
 		 * 	t%2 == 0 이라면 분모가 큰 분수가 먼저 시작된다.
