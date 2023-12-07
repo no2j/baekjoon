@@ -20,6 +20,7 @@ public class Bj24262 { // 알고리즘 수업 - 알고리즘의 수행 시간 1
 		int n = Integer.parseInt(br.readLine());
 		int count = 1;
 		int max = 0;
+		
 		for(int i=0; i<n; i++) {
 			if(max > i/2) {
 				max = i/2;
